@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
+  solution: 'dotnet/aspnet/webapp/Application/**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
